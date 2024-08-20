@@ -1,9 +1,144 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+
 .work-sans-font {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
+/* shared style */
+.display-flex{
+    display: flex;
+
+}
+
+
+
+.bg-light{
+    background-color: rgba(17, 17, 17, 1)
+}
+
+
+/* header style */
+
+
+/* navbar related style */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.brand{
+    font-weight: 700px;
+    font-size: 2.5rem;
+    color: #E6533C;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+    color: #FFFFFF;
+   text-align: center;
+   
+   
+    
+}
+#item-1{
+    background-color: #E6533C;
+    border: none;
+    border-radius: 10px;
+    width: 50px;
+    height: 15px;
+    padding: 10px;
+}
+.nav-links{
+    border: .2px solid azure;
+    border-radius: 12px;
+    align-items: center;
+}
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* banner style */
+.banner-content{
+    max-width: 500px;
+    margin: 0 180px 600px;
+}
+.banner{
+    gap: 100px;
+    justify-content: center;
+   
+}
+.banner-title{
+    color: #FFFFFF;
+    font-size: 4.5rem;
+}
+#shape{
+    font-style: italic;
+}
+.banner-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+}
+.btn-primary{
+    color: #FFFFFF;
+    border: none;
+    border-radius: 20px;
+    background-color: #E6533C;
+}
+.btn-secondary{
+    color: #FFFFFF;
+    border: .5px solid #FFFFFF;
+    border-radius: 20px;
+
+}
+.img-fit{
+    width: 350px;
+    height: 550px;
+    margin-top: none;
+}
+.img-fit img{
+    width: 100%;
+}
+.badge-1{
+    padding: 17px 30px 15px;
+    color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 3rem;
+    margin-left: 230px;
+    margin-top: -800px;
+
+}
+   
+   
+.badge-2{
+    padding: 0 25px 20px;
+    color: #FFFFFF;
+    background-color: rgba(48, 48, 48, 0.54);
+    font-size: .5rem;
+    margin-left: -50px;
+    margin-bottom: 700px;
+}
+.free{
+    font-size: .5rem;
+}
+.practics-no{
+    font-size: 1.8rem;
+
+}
+  /*responsive media query  */
+  @media screen and(max-width:576px) {
+    .navbar, .nav-links, .banner{
+        flex-direction: column;
+    }
+    .banner{
+        margin: auto 100px;
+    }
+   
+    
+  } 
+    
+  
+    
