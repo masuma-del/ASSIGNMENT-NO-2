@@ -13,6 +13,10 @@
     display: flex;
 
 }
+.border-radius{
+border-radius: 80px;
+
+}
 
 
 
@@ -128,6 +132,33 @@
     font-size: 1.8rem;
 
 }
+.habit{
+    margin: 0 100px 50px;
+}
+.change-habit{
+    justify-content: center;
+    text-align: center;
+}
+.habit-title{
+    color: #FFFFFF;
+    font-size: 3rem;
+}
+.habit-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .5rem;
+}
+
+.habit-img-container{
+    display: flex;
+    justify-content: center;
+   
+}
+.inner{
+    color: rgba(255, 255, 255, 0.5);
+}
+.img-1, .img-2, .img-3, .img-4{
+    border-radius: 80px;
+} 
   /*responsive media query  */
   @media screen and(max-width:576px) {
     .navbar, .nav-links, .banner{
