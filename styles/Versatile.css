@@ -156,7 +156,7 @@ border-radius: 80px;
 .inner{
     color: rgba(255, 255, 255, 0.5);
 }
-.img-1, .img-2, .img-3, .img-4{
+.img{
     border-radius: 80px;
 } 
   /*responsive media query  */
@@ -166,6 +166,10 @@ border-radius: 80px;
     }
     .banner{
         margin: auto 100px;
+    }
+    .habit-img-container{
+        grid-template-columns: repeat(1 1fr);
+        margin-left: 20px auto;
     }
    
     
